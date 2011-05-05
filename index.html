@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width" />
+<script src="js/libs/jquery-1.5.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/plugins.js" type="text/javascript" charset="utf-8"></script>
+<script src="jquery.mobile/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+<script src="jquery.mobile/jquery.mobile.js" type="text/javascript" charset="utf-8"></script>
+<script src="phonegap.0.9.5.min.js"></script>
+<script src="ChildBrowser.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/script.js" type="text/javascript" charset="utf-8"></script>
+<!-- end scripts-->
+<title>Jazz Fest</title>
+<link rel="stylesheet" href="jquery.mobile/jquery.mobile.css" />
+<link rel="stylesheet" href="css/style.css?v=2">
+</head>
+
+<body class="loading">
+<!--begin content-->
+<div data-role="page" data-theme="b" id="jazz-home">
+
+  <!-- /header -->
+  <div id="jazz-logo">
+	<img src="css/images/jazz-fest.png" alt="logo" />
+  </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true" data-theme="d" data-dividertheme="a" id="TODAY">
+      <li data-role="list-divider">Today</li>
+    </ul>
+    <ul data-role="listview" data-inset="true" data-theme="d" data-dividertheme="a" id="TOMORROW">
+      <li data-role="list-divider">Tomorrow</li>
+    </ul>
+    <ul data-role="listview" data-inset="true" data-theme="d" data-dividertheme="a" id="REST_OF_WEEK">
+      <li data-role="list-divider">Rest of the week</li>
+    </ul>
+  </div>
+  <div data-role="footer" data-id="refresh-footer" data-position="fixed" data-theme="a"> <a href="index.html" data-icon="refresh" class="ui-btn-left" rel="external">Refresh</a> </div>
+  <!-- /footer --> 
+</div>
+<!--/content-->
+
+</body>
+</html>

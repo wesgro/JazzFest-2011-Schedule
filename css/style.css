@@ -1,0 +1,24 @@
+html.ui-mobile-rendering{
+	background:url(images/ajax-loader.png) no-repeat center center #CCC;
+	-webkit-transform: rotate(360deg);
+	-webkit-animation-name: spin;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count:  infinite;
+}
+.loading > div{
+	position:absolute;
+	left:-9000px;	
+}
+body, html{
+	background-color:#cd015c;	
+}
+#jazz-logo{
+	width:300px;
+	margin:0 auto;	
+}
+.ui-body-b{
+		background:#cd015c !important;
+}
+.ui-link-inherit{
+	text-transform:uppercase;
+}
